@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    height: 100vh;
+    font-family: "ubuntu", sans-serif;
+}
+/* nav container styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px darkgray;
+    
+}
+
+/* nav paragraph style */
+nav p {
+    color:  #0000c1;
+    font-size: 1.2rem;
+    letter-spacing: 0px
+}
+
+/* nav unordered list styles */
+nav ul  {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* nav unordered list items styles  */
+nav ul li {
+    list-style: none;
+}
+
+/* nav unordered list items anchor tag styles  */
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+/* header styles */
+header {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 50px 20px;
+    gap: 50px;
+}
+.left {
+   width: 60%;
+   
+}
+.left h1 {
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 20px;
+}
+.left p {
+    width: 60%;
+    padding-bottom: 20px;
+}
+ img {
+    flex-grow: 1;
+ }
+ button {
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+ .first-btn {
+    background-color: #0000c1;
+    color: #ffffff;
+    border-color: #0000c1;
+ }
+ .second-btn {
+    background-color: #ffffff;
+    color: #0000c1;
+    border-color: #0000c1;
+ }
+
+ /* main styles */
+/* main {
+
+} */
+
+/* main h2 styles */
+main h2 {
+    text-align: center;
+}
+/* card container styles */
+.card-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* card styles */
+.card {
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+}
+/* card paragraph, h4 styles */
+.card p, .card h4 {
+    padding-bottom: 20px;
+}
+
+i.bx.bx-light-bulb, i.bx.bx-bolt, i.bx.bx-lock {
+    color: gold;
+    margin-bottom: 20px;
+    transform: scale(3);
+   
+}
